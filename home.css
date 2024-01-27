@@ -1,0 +1,36 @@
+html,body {
+    background-color:#ffffff;
+    font-family: 'League Spartan', sans-serif;
+}
+
+#navbar {
+display:flex;
+justify-content: space-around;
+
+}
+
+.ul-navbar {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    overflow: hidden;
+  }
+
+  li{
+    display: inline;
+  }
+
+.nav-item {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    display: block;
+    float: left;
+    padding: 10px;
+}
+
+a:hover {
+    color:#ec4b30 ;
+}
+
